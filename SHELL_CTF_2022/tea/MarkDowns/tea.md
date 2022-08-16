@@ -1,14 +1,14 @@
-## Challenge Name: tea
-##### Category: 
+# Challenge Name: tea
+### Category: 
 Reverse
 
-##### Challenge Description: 
+### Challenge Description: 
 Let's reverse the way [shellpwn](https://ctftime.org/team/65394) makes tea.
 
-##### Artifact Files:
+### Artifact Files:
 * [tea binary](https://github.com/S-H-E-L-L/S.H.E.L.L-CTF-2022/blob/main/rev/tea/tea)
 
-### Approach
+## Approach
 
 **1. Reverse the binary with gihdra**
 
@@ -47,7 +47,7 @@ if the strings are equal we get confirmation that we inputed the right flag.
 
 **4. Run the reverse**
 
-### Reflections
+## Reflections
 <reflections ...>
   
 
