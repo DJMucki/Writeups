@@ -147,11 +147,9 @@ programming the reversed code.
 ### Who was involved
 
 @[SHELL](https://github.com/S-H-E-L-L)\
-
 @[xyhlon](https://github.com/xyhlon)\
-
 @[me](https://github.com/DJMuckia)\
 
-	Thanks for the read :)
+**Thanks for the read :)**
 ---
 [Back to home](https://github.com/DJMucki/SHELL_CTF_2022)
