@@ -38,7 +38,7 @@ after which it appends the parts as follows:  **third + first + second**
 
 ![img](https://github.com/DJMucki/Writeups/blob/main/SHELL_CTF_2022/tea/Images/addMilk.png)
 
-**2.5 strainAndServe** compares the modified input with **R;crc75ihl`cNYe`]m%50gYhugow~34i**
+**2.5 strainAndServe** compares the modified input with **R;crc75ihl\`cNYe\`]m%50gYhugow~34i**
 if the strings are equal we get confirmation that we input the right flag.
 
 ![img](https://github.com/DJMucki/Writeups/blob/main/SHELL_CTF_2022/tea/Images/strainAndServe.png)
