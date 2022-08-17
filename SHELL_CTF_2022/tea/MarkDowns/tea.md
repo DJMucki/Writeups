@@ -150,6 +150,7 @@ programming the reversed code.
 @[xyhlon](https://github.com/xyhlon)\
 @[me](https://github.com/DJMuckia)
 
-**Thanks for the read :)**
+Thanks for the read :)
+
 ---
 [Back to home](https://github.com/DJMucki/SHELL_CTF_2022)
