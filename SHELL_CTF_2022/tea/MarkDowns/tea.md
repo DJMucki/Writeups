@@ -131,12 +131,23 @@ for elem in newpool:
     print(tempstr)
 # shellctf{T0_1nfiNi7y_4n?_y3kd}
 ```
+python code by @[xyhlon](https://github.com/xyhlon)
 
 **4. Run the reverse**
+![img](https://github.com/DJMucki/Writeups/blob/main/SHELL_CTF_2022/tea/Images/flag.png)
 
 ## Reflections
-<reflections ...>
-  
+Reverse challenges require three main skills:
 
+Reversing the binary,
+understanding the code and
+programming the reversed code.
+
+## Who was involved
+@[SHELL](https://github.com/S-H-E-L-L)
+@[xyhlon](https://github.com/xyhlon)
+@[me](https://github.com/DJMuckia)
+
+Thanks for the read :)
 ---
 [Back to home](https://github.com/DJMucki/SHELL_CTF_2022)
