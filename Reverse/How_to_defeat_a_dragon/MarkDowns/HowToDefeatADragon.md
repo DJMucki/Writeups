@@ -2,7 +2,7 @@
 
 Reverse the given binary file with [Gihdra](https://ghidra-sre.org/)
 
-![alt text](https://github.com/DJMucki/Writeups/blob/main/SHELL_CTF_2022/How_to_defeat_a_dragon/images/gihdra_decomp.png)
+![alt text](https://github.com/DJMucki/Writeups/blob/main/Reverse/How_to_defeat_a_dragon/images/gihdra_decomp.png)
 
 Take a look at the code and see the following
 

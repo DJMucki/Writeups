@@ -12,7 +12,7 @@ Let's reverse the way [shellpwn](https://ctftime.org/team/65394) makes tea.
 
 **1. Reverse the binary with gihdra**
 
-![img](https://github.com/DJMucki/Writeups/blob/main/SHELL_CTF_2022/tea/Images/tea.png)
+![img](https://github.com/DJMucki/Writeups/blob/main/Reverse/tea/Images/tea.png)
 
 **2. Think about what the functions do**
 
