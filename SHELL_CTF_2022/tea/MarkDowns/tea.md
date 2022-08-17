@@ -44,6 +44,93 @@ after which it appends the parts as follows:  **third + first + second**
 if the strings are equal we get confirmation that we inputed the right flag.
 
 **3. Reverse the tea making with python**
+'''
+from pprint import pprint
+
+ciphertext = "R;crc75ihl`cNYe`]m%50gYhugow~34i"
+
+parts = ciphertext.split("5")
+print(parts)
+pool1 = []
+pool2 = []
+thirdandfirst1 = parts[0]
+thirdandfirst2 = parts[0] + "5" + parts[1]
+second1 = "5" + parts[1] + "5" + parts[2]
+second2 = "5" + parts[2]
+
+
+# reverse first part adding Milk
+for x in range(len(thirdandfirst1)):
+    x = x
+    first = thirdandfirst1[x:]
+    third = thirdandfirst1[:x]
+    pool1.append(first + second1 + third)
+
+for x in range(len(thirdandfirst2)):
+    x = x
+    first = thirdandfirst2[x:]
+    third = thirdandfirst2[:x]
+    pool2.append(first + second2 + third)
+
+pool1.extend(pool2)
+# pprint(pool1)
+newpool = []
+# reverse second part adding Tea
+for cipher in pool1:
+    count = 0
+    # print(cipher)
+    cipher = bytearray(bytes(cipher, "utf-8"))
+    textlen = len(cipher) // 2
+    print(len(cipher))
+
+    first = cipher[:textlen]
+    second = cipher[textlen:]
+    tempstr = ""
+    print(range(len(first)))
+    for i in range(len(first)):
+        shift = (count // 2) * 3
+        # print(shift)
+        first[i] = (first[i] + shift) % 255
+        count += 1
+    # print(count)
+    # count += 1
+    for i in range(len(second)):
+        shift = count // 6
+        # print(shift)
+        second[i] = (second[i] - shift) % 255
+        count += 1
+    try:
+        s1 = first.decode()
+        # print(s1)
+        s2 = second.decode()
+        # print(s2)
+        newpool.append(s1 + s2)
+    except:
+        for c in first:
+            tempstr += chr(c)
+
+        for c in second:
+            tempstr += chr(c)
+        newpool.append(tempstr)
+        # print(tempstr)
+        continue
+
+# pprint(newpool)
+
+# reverse third part adding Sugar
+
+for elem in newpool:
+
+    tempstr = ""
+    lenelem = len(elem) // 2
+    print(elem[lenelem:])
+    print(elem[:lenelem])
+    for chpair in zip(elem[lenelem:], elem[:lenelem]):
+        tempstr += chpair[0]
+        tempstr += chpair[1]
+    print(tempstr)
+# shellctf{T0_1nfiNi7y_4n?_y3kd}
+'''
 
 **4. Run the reverse**
 
