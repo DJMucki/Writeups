@@ -148,7 +148,7 @@ programming the reversed code.
 
 @[SHELL](https://github.com/S-H-E-L-L)\
 @[xyhlon](https://github.com/xyhlon)\
-@[me](https://github.com/DJMuckia)\
+@[me](https://github.com/DJMuckia)
 
 **Thanks for the read :)**
 ---
