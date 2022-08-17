@@ -44,7 +44,7 @@ after which it appends the parts as follows:  **third + first + second**
 if the strings are equal we get confirmation that we inputed the right flag.
 
 **3. Reverse the tea making with python**
-'''
+'''python:
 from pprint import pprint
 
 ciphertext = "R;crc75ihl`cNYe`]m%50gYhugow~34i"
