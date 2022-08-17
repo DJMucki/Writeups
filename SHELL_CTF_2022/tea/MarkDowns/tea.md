@@ -44,7 +44,7 @@ after which it appends the parts as follows:  **third + first + second**
 if the strings are equal we get confirmation that we inputed the right flag.
 
 **3. Reverse the tea making with python**
-'''python:
+```python
 from pprint import pprint
 
 ciphertext = "R;crc75ihl`cNYe`]m%50gYhugow~34i"
@@ -130,7 +130,7 @@ for elem in newpool:
         tempstr += chpair[1]
     print(tempstr)
 # shellctf{T0_1nfiNi7y_4n?_y3kd}
-'''
+```
 
 **4. Run the reverse**
 
