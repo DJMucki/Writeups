@@ -18,16 +18,16 @@ Let's reverse the way [shellpwn](https://ctftime.org/team/65394) makes tea.
 
 **2.1 boilWater** reads the input and saves it into a global variable.
 
-![img](https://github.com/DJMucki/Writeups/blob/main/SHELL_CTF_2022/tea/Images/boilWater.png)
+![img](https://github.com/DJMucki/Writeups/blob/main/Reverse/tea/Images/boilWater.png)
 
 **2.2 addSugar** reorganizes the string so that all the characters in an odd index are in front and the even characters are at the back of the string.
 
-![img](https://github.com/DJMucki/Writeups/blob/main/SHELL_CTF_2022/tea/Images/addSugar.png)
+![img](https://github.com/DJMucki/Writeups/blob/main/Reverse/tea/Images/addSugar.png)
 
 **2.3 addTea** operates over the first half of the input and modifies it as follows: input[i] = input[i] - ( (i/2) * 3 )
 the other half of the string suffers the following operation: input[i] = input[i] + (i/6)
 
-![img](https://github.com/DJMucki/Writeups/blob/main/SHELL_CTF_2022/tea/Images/addTea.png)
+![img](https://github.com/DJMucki/Writeups/blob/main/Reverse/tea/Images/addTea.png)
 
 **2.4 addMilk** divides the string into 3 parts
 the first part ends at the first 5 excluding the 5,
@@ -36,12 +36,12 @@ the third part includes the R and the rest of the string.
 
 after which it appends the parts as follows:  **third + first + second**
 
-![img](https://github.com/DJMucki/Writeups/blob/main/SHELL_CTF_2022/tea/Images/addMilk.png)
+![img](https://github.com/DJMucki/Writeups/blob/main/Reverse/tea/Images/addMilk.png)
 
 **2.5 strainAndServe** compares the modified input with **R;crc75ihl\`cNYe\`]m%50gYhugow~34i**
 if the strings are equal we get confirmation that we input the right flag.
 
-![img](https://github.com/DJMucki/Writeups/blob/main/SHELL_CTF_2022/tea/Images/strainAndServe.png)
+![img](https://github.com/DJMucki/Writeups/blob/main/Reverse/tea/Images/strainAndServe.png)
 
 **3. Reverse the tea making with python**
 ```python
@@ -135,7 +135,7 @@ python code by @[xyhlon](https://github.com/xyhlon)
 
 **4. Run the reverse**
 
-![img](https://github.com/DJMucki/Writeups/blob/main/SHELL_CTF_2022/tea/Images/flag.png)
+![img](https://github.com/DJMucki/Writeups/blob/main/Reverse/tea/Images/flag.png)
 
 ## Reflections
 Reverse challenges require three main skills:
@@ -153,4 +153,4 @@ programming the reversed code.
 Thanks for the read :)
 
 ---
-[Back to home](https://github.com/DJMucki/SHELL_CTF_2022)
+[Back to home](https://github.com/DJMucki/Reverse)
